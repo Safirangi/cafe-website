@@ -1,0 +1,54 @@
+@import url("https://fonts.googleapis.com/css2?family=Work+Sans&display=swap");
+
+:root {
+  --font: "Work Sans", sans-serif;
+  --color1: #685252;
+  --color2: #fcf7ed;
+  --color3: #fff;
+  --color4: #000;
+  --color5: #4e555d;
+}
+
+/*Style set for all selectors*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+  font-family: var(--font);
+}
+body {
+  background-color: var(--color3);
+}
+header {
+  background-image: url(cafe_img/cafe1.jpg);
+  height: 5rem;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: top;
+}
+
+/*Flexbox display set to ul container, li as children elements*/
+nav ul {
+  display: flex;
+  justify-content: center;
+  list-style: none;
+  align-content: center;
+}
+nav ul li {
+  margin: 2em;
+}
+nav ul li a {
+  color: var(--color3);
+  text-decoration: none;
+}
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.cafe h1 {
+  text-align: center;
+  padding: 1em;
+  color: var(--color1);
+}
