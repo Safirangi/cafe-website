@@ -52,3 +52,26 @@ nav ul li a:hover {
   padding: 1em;
   color: var(--color1);
 }
+.menu-grid {
+  display: flex;
+  flex-wrap: wrap;
+}
+.item {
+  height: 15em;
+  width: 25em;
+  background-color: var(--color2);
+  padding: 1em;
+  margin: 1.5em;
+  display: flex;
+  box-shadow: 0 4px 10px 0 rgba(0, 0, 0, 0.2);
+  border-radius: 0.4em;
+}
+.item img {
+  height: 13em;
+  width: 13em;
+  border-radius: 0.4em;
+}
+.caption {
+  padding: 1em;
+}
+
