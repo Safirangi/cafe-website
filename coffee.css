@@ -20,7 +20,7 @@ body {
   background-color: var(--color3);
 }
 header {
-  background-image: url(cafe_img/cafe1.jpg);
+  background-image: url(cafe_img/beans.jpg);
   height: 5rem;
   background-repeat: no-repeat;
   background-size: cover;
@@ -90,4 +90,7 @@ footer {
 }
 footer p {
   padding: 0.4em;
+}
+footer p a {
+  color: var(--color1);
 }
