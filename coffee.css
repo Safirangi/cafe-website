@@ -8,7 +8,6 @@
   --color4: #000;
   --color5: #4e555d;
 }
-
 /*Style set for all selectors*/
 * {
   margin: 0;
@@ -28,7 +27,6 @@ header {
   background-attachment: fixed;
   background-position: top;
 }
-
 /*Flexbox display set to ul container, li as children elements*/
 nav ul {
   display: flex;
@@ -52,6 +50,11 @@ nav ul li a:hover {
   padding: 1em;
   color: var(--color1);
 }
+.cafe p {
+  text-align: center;
+  width: 95%;
+  margin: 0 auto 2em;
+}
 .menu-grid {
   display: flex;
   flex-wrap: wrap;
@@ -70,8 +73,21 @@ nav ul li a:hover {
   height: 13em;
   width: 13em;
   border-radius: 0.4em;
+  background-size: cover;
 }
 .caption {
   padding: 1em;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
+footer {
+  text-align: center;
+  margin: 3em auto 1em;
+  width: 100%;
+}
+footer p {
+  padding: 0.4em;
+}
