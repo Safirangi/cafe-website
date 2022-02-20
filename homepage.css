@@ -108,11 +108,13 @@ nav ul li a:hover {
 }
 
 footer {
-  color: var(--color4);
   text-align: center;
-  padding: 2em;
-  height: 4em;
+  margin: 3em auto 1em;
   width: 100%;
-  margin: 8em 0 0 0;
-  bottom: 0;
+}
+footer p {
+  padding: 0.4em;
+}
+footer p a {
+  color: var(--color1);
 }
