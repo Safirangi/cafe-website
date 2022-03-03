@@ -1,7 +1,11 @@
+<div align="center">
+
 # cafe-website
 A Fictional 'Dawn Cafe' Website
 
-View this project hosted on GitHub Pages : [dawn cafe](https://safirangi.github.io/cafe-website/)
+*View this project hosted on GitHub Pages : [dawn cafe](https://safirangi.github.io/cafe-website/)*
+  
+</div>
 
 A Cafe Website should consist of: 
 - [x] High-quality photos.
