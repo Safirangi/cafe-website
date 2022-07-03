@@ -90,6 +90,7 @@ nav ul li a:hover {
 
 .order-link {
   color: var(--color1);
+  cursor: pointer;
 }
 
 footer {
