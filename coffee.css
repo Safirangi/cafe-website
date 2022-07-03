@@ -93,6 +93,10 @@ nav ul li a:hover {
   cursor: pointer;
 }
 
+.order-link:hover {
+  color: var(--color6);
+}
+
 footer {
   text-align: center;
   margin: 3em auto 1em;
