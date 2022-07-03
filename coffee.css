@@ -88,6 +88,10 @@ nav ul li a:hover {
   font-size: 0.95rem;
 }
 
+.order-link {
+  color: var(--color1);
+}
+
 footer {
   text-align: center;
   margin: 3em auto 1em;
